@@ -13,15 +13,14 @@
   .hero-text {
     max-width: 300px;
   }
-.hero-img{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 400px;
-}
+  .hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+  }
   .hero-img img {
-width: 90%;
-   
+    width: 90%;
   }
   .features-grid {
     display: grid;
@@ -48,16 +47,15 @@ width: 90%;
 }
 
 @media screen and (max-width: 500px) {
- 
   header {
     width: 100vw;
   }
   .navbar {
-    width: 100%;
+   padding: 10px;
   }
 
   .logo {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: bold;
   }
 
@@ -65,12 +63,22 @@ width: 90%;
     gap: 5px;
   }
 
-  .comparison table{
+  .comparison table {
     width: 250px;
   }
   .comparison th,
-.comparison td {
-  padding: 5px 10px;
+  .comparison td {
+    padding: 5px 10px;
+  }
 
-}
+  .footer-btn {
+    border-radius: 100px;
+  }
+  .newsletter button {
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  .newsletter input[type="email"] {
+    border-radius: 5px;
+  }
 }
