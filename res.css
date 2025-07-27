@@ -1,8 +1,4 @@
 @media screen and (max-width: 1190px) {
-  .navbar {
-    background-color: red;
-  }
-
   .logo {
     font-size: 1.1rem;
     font-weight: bold;
@@ -17,9 +13,16 @@
   .hero-text {
     max-width: 300px;
   }
-
+.hero-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
   .hero-img img {
-    display: none;
+   /* background-color: red; */
+width: 90%;
+   
   }
   .features-grid {
     display: grid;
@@ -43,4 +46,34 @@
   .comparison table {
     width: 400px;
   }
+}
+
+@media screen and (max-width: 500px) {
+  .navbar{
+    background-color: red;
+  }
+  header {
+    width: 100vw;
+  }
+  .navbar {
+    width: 100%;
+  }
+
+  .logo {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .nav-links {
+    gap: 5px;
+  }
+
+  .comparison table{
+    width: 250px;
+  }
+  .comparison th,
+.comparison td {
+  padding: 5px 10px;
+
+}
 }
