@@ -20,7 +20,6 @@
   width: 400px;
 }
   .hero-img img {
-   /* background-color: red; */
 width: 90%;
    
   }
@@ -49,9 +48,7 @@ width: 90%;
 }
 
 @media screen and (max-width: 500px) {
-  .navbar{
-    background-color: red;
-  }
+ 
   header {
     width: 100vw;
   }
