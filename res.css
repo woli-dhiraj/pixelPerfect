@@ -1,0 +1,46 @@
+@media screen and (max-width: 1190px) {
+  .navbar {
+    background-color: red;
+  }
+
+  .logo {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+  }
+
+  .hero-text {
+    max-width: 300px;
+  }
+
+  .hero-img img {
+    display: none;
+  }
+  .features-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+
+    max-width: 500px;
+    margin: 0 auto;
+
+    justify-items: center;
+  }
+
+  .feature-box {
+    margin: 10px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(1, 300px);
+  }
+
+  .comparison table {
+    width: 400px;
+  }
+}

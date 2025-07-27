@@ -13,7 +13,9 @@ html {
   height: 100%;
   width: 100%;
 }
-
+header{
+  width: 100vw;
+}
 .navbar {
   background-color: #111;
   color: white;
@@ -21,6 +23,7 @@ html {
   justify-content: space-between;
   padding: 20px 10%;
   align-items: center;
+  
 }
 
 .logo {
@@ -71,23 +74,10 @@ html {
 .hero-img img {
   width: 100%;
   max-width: 500px;
-  /* z-index: 12;
-  position: relative; */
+
 }
 
-/* .hero-img::after{
-  content: "";
-  background-image: url("./images/12b.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 300px;
-  width: 300px;
-  position: absolute;
-  top: 10%;
-  right: 1px;
-  z-index: 1;
-} */
+
 
 .btn {
   background: #00ffab;
@@ -420,3 +410,4 @@ footer {
   text-align: center;
   padding: 20px 0;
 }
+
